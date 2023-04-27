@@ -16,6 +16,13 @@ public class main {
 		}
 		
 
+		if(esPrimo.comparaPrimo2(numeroPrueba)) {
+			System.out.println(numeroPrueba + " Es primo");
+		}else {
+			System.out.println(numeroPrueba + " No es primo");
+		}
+		
+
 	}
 
 }
